@@ -17,10 +17,10 @@
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function () {
-                        (i[r].q = i[r].q || []).push(arguments)
-                    }, i[r].l = 1 * new Date();
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
             a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
+                m = s.getElementsByTagName(o)[0];
             a.async = 1;
             a.src = g;
             m.parentNode.insertBefore(a, m)
@@ -43,8 +43,11 @@
         <div class="row">
             <div class="twelve columns">
                 <img id="logo" src="/media/Club_Hub_Branding.png">
-                <h4>A Digital Display Solution for Schools</h4>
-                <button id="register1" class="button-primary" onclick="location.href='#plans';">Free Trial</button>
+                <h4>A Digital Event System for Schools</h4>
+                <button id="fork1" class="button-primary" onclick="location.href='https://github.com/geosir/clubhub';">
+                    Fork on GitHub
+                </button>
+                <button id="register1" class="button-secondary" onclick="location.href='#plans';">Get Hosted</button>
                 <button id="demo1" class="button-secondary"
                         onclick="location.href='https://example.clubhub.live/present';">Slideshow Demo
                 </button>
@@ -62,7 +65,7 @@
         <div class="row">
             <div class="four columns" style="text-align: center;">
                 <img class="visual-icon" src="/media/mail_overload.png" style="height: 14vh; display: inline-block;">
-                <p>Students can receive up to <b>20 school emails a day</b>, making planning very confusing.</p>
+                <p>Students receive <b>many emails each day</b>, making planning very confusing.</p>
             </div>
             <div class="four columns" style="text-align: center;">
                 <img class="visual-icon" src="/media/calendar_confusion.png"
@@ -73,7 +76,7 @@
             <div class="four columns" style="text-align: center;">
                 <img class="visual-icon" src="/media/ClubHub_Logo.png"
                      style="height: 14vh; display: inline-block;">
-                <p>Club Hub is a <b>simple centralized digital event display</b> that solves these problems.</p>
+                <p>Club Hub is a <b>simple centralized digital event system</b> that solves these problems.</p>
             </div>
         </div>
     </div>
@@ -147,7 +150,20 @@
     <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <h1>Plans and Pricing</h1>
+                <h1>Get Club Hub</h1>
+            </div>
+        </div>
+        <div class="row plan">
+            <div class="six columns">
+                <img src="/media/plan_github.png">
+            </div>
+            <div class="six columns">
+                <h2>Club Hub Open</h2>
+                <ul style="margin-left: 5%;">
+                    <li>Club Hub is open-source!</li>
+                    <li>Get the code from GitHub and modify freely.</li>
+                </ul>
+                <h4><a href="https://github.com/geosir/clubhub">Fork Club Hub on GitHub</a></h4>
             </div>
         </div>
         <div class="row plan">
@@ -155,15 +171,16 @@
                 <img src="/media/plan_color.png">
             </div>
             <div class="six columns">
-                <h2>Club Hub Standard</h2>
+                <h2>Club Hub Live</h2>
                 <ul style="margin-left: 5%;">
+                    <li>Worry-free hosting!</li>
                     <li>All standard features described above</li>
                     <li>Unique subdomain at clubhub.live</li>
                     <li>Customization of logos, colors, and text</li>
-                    <li>As-soon-as-available technical support</li>
+                    <li>Expert technical support</li>
                     <li>5GB of poster storage</li>
                 </ul>
-                <h4><b>$20/mo</b> or <b>$100/yr</b> <span style="color: #aaa">(save 58%)</span></h4>
+                <h4><b>$40/mo</b> or <b>$200/yr</b> <span style="color: #aaa">(save 58%)</span></h4>
             </div>
         </div>
         <div class="row plan">
@@ -171,7 +188,7 @@
                 <img src="/media/plan_outline.png">
             </div>
             <div class="six columns">
-                <h2>Club Hub Lite</h2>
+                <h2>Club Hub Live (Trial)</h2>
                 <ul style="margin-left: 5%;">
                     <li>Our 1-year free trial plan</li>
                     <li>All the same features that come with Club Hub Standard</li>
@@ -191,7 +208,7 @@
 </div>
 
 <div class="section copyright">
-    <p>Copyright &copy; 2017 <a href="https://george.moe">George Moe</a></p>
+    <p>Copyright &copy; 2018 <a href="https://george.moe">George Moe</a></p>
     <a href="https://george.moe"><img src="/media/georgemoe_logo_dark.png" style="width: 15vw"></a>
 </div>
 
